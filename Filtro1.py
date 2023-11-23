@@ -78,4 +78,7 @@ if cat != 'Todos':
     
     
 st.dataframe(db)
-    
+
+res = len(db.index)
+
+st.write('Resultados da filtragem: ',res)
